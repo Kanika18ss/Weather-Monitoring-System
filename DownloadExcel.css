@@ -1,0 +1,36 @@
+#download-btn {
+    position: relative;
+    width: 160px;
+    font-size: 90%;
+    color: white;
+    height: 35px;
+    padding: 1px;
+    left: 85%; /* Adjust left positioning as needed */
+    margin-top: 5px; /* Increase margin-top to create more space */
+    z-index: 5;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(21, 21, 21);
+    padding-bottom: 5px;
+}
+
+#download-btn:hover {
+    background-color: rgb(75, 70, 70);
+}
+
+#download-btn b {
+    position: relative;
+    top: -20px;
+    left: 2px;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+#download-btn img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 5px; /* Adjust margin-top to align the image properly */
+}

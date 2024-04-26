@@ -1,0 +1,97 @@
+.iot {
+    background-color: black;
+}
+
+.csv-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.csv-table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    /* Set text color to white */
+}
+
+.csv-table th,
+.csv-table td {
+    border: 1px solid white;
+    /* Set border color to white */
+    padding: 8px;
+}
+
+.csv-table th {
+    background-color: black;
+    /* Dark grey background for table header */
+    font-weight: bold;
+    text-align: left;
+}
+
+.chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+}
+
+.chart {
+    width: calc(33% - 20px);
+    margin-bottom: 20px;
+    background-color: #1a1a1a;
+    /* Dark background for the chart */
+    border-radius: 8px;
+    /* Add rounded corners */
+    padding: 20px;
+    /* Add padding for spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Add shadow for depth */
+    transition: transform 0.3s ease
+}
+
+.chart:hover {
+    transform: scale(1.05); /* Scale the chart by 10% on hover */
+}
+
+
+.chart canvas {
+    width: 100% !important;
+    /* Ensure canvas takes full width of container */
+    height: auto !important;
+    /* Allow canvas to adjust height */
+}
+
+.chart-title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    /* Set text color to white */
+}
+
+.chart-title h2 {
+    font-size: 24px;
+    color: white;
+    /* Change color of the chart title to white */
+}
+
+.modify {
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 40px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modify-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between boxes as needed */
+}

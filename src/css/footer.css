@@ -1,0 +1,23 @@
+/* footer.css */
+
+/* Set background color */
+.bg-dark {
+  background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+}
+
+/* Center align content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Set text color to white */
+.text-white-500 {
+  color: #fff;
+}
+
+.dark:text-white-300 {
+  color: #fff; /* You can adjust the shade of white if needed */
+}
