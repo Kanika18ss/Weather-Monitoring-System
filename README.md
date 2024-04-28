@@ -19,8 +19,8 @@ FC22 is a gas sensor commonly used in IoT applications to detect various gases s
 ESP8266, often integrated into development boards like NodeMCU, is a ver- satile Wi-Fi module widely used in IoT projects. It features a low-cost yet powerful mi- crocontroller, making it suitable for tasks such as data acquisition, processing, and wireless communication. NodeMCU’s compatibility with the Arduino IDE simplifies programming, making it accessible to hobbyists and professionals alike.
 ### • BMP-180: 
 BMP180 is a high-precision digital pressure sensor commonly used in IoT applications to measure atmospheric pressure and temperature. Its small size, low power consumption, and accuracy make it ideal for weather monitoring, altitude tracking, and indoor climate control systems.
-<div >
-![image](https://github.com/Kanika18ss/Weather-Monitoring-System/assets/110254553/99886a39-22bf-4369-a17c-5650832d3a7d)
-</div>
+<br></br>
+![image](https://github.com/Kanika18ss/Weather-Monitoring-System/assets/110254553/26b7a471-c0fd-45ba-9569-c54b13a0e8d7)
+
 
 
