@@ -12,29 +12,15 @@ Designing a user-friendly website with intuitive weather dash- boards accessible
 ### 4. Enhanced Disaster Resilience:   
 Enhancing disaster resilience by providing timely and ac- curate weather information, enabling proactive decision-making and mitigation measures to protect lives, property, and critical infrastructure in Mana village and its surroundings.  
 
-## Motivation
-### 1. Enhancing Disaster Preparedness and Management:   
-Deploying advanced sensors and IoT technology to provide timely and accurate weather information crucial for proactive decision-making during emergencies like floods and landslides.   
-Minimizing potential damage to infrastructure and reducing the risk to human lives through proactive measures.   
-### 2. Addressing Limitations of Manual Weather Monitoring:   
-Current manual weather monitoring stations have limitations such as inability to provide real-time data and insights from historical data.   
-AWMS aims to fill this gap by offering a comprehensive platform that monitors weather conditions in real-time at Mana, enabling proactive measures to manage operations and mitigate risks.
-### Optimizing Operation of Critical Infrastructure:   
-Integrating AWMS with the management systems of the VishnuPrayag Barrage to enhance efficiency and effectiveness of operations.   
-Ensuring sustainable utilization of water resources and minimizing the impact of adverse weather events on critical infrastructure.   
-### Commitment to Leveraging Technology for Resilience and Development:   
-Rooted in the commitment to leveraging technology to enhance disaster resilience, protect lives and property, and promote sustainable development in Mana village and its surroundings.
-
-## Software Requirement Specification
-<img width="492" alt="image" src="https://github.com/riyaarora03/Weather/assets/137734460/d3be5a95-7e3e-4800-a3e0-0c0b24f8fbac">
-
-
 ## IOT Hardware
 ### • FC-22:
 FC22 is a gas sensor commonly used in IoT applications to detect various gases such as methane, carbon monoxide, and propane. It operates on a voltage of 3.3V and provides real-time data on gas concentration, allowing for early detection of leaks or haz- ardous conditions. FC22 enables IoT systems to monitor indoor air quality, industrial environments, and safety hazards.
 ### • ESP-8266: 
 ESP8266, often integrated into development boards like NodeMCU, is a ver- satile Wi-Fi module widely used in IoT projects. It features a low-cost yet powerful mi- crocontroller, making it suitable for tasks such as data acquisition, processing, and wireless communication. NodeMCU’s compatibility with the Arduino IDE simplifies programming, making it accessible to hobbyists and professionals alike.
 ### • BMP-180: 
-BMP180 is a high-precision digital pressure sensor commonly used in IoT applications to measure atmospheric pressure and temperature. Its small size, low power consumption, and accuracy make it ideal for weather monitoring, altitude tracking, and indoor climate control systems. BMP180 provides real-time data on barometric pressure and temperature, enabling IoT devices to make informed decisions and adapt to changing environmental conditions.
+BMP180 is a high-precision digital pressure sensor commonly used in IoT applications to measure atmospheric pressure and temperature. Its small size, low power consumption, and accuracy make it ideal for weather monitoring, altitude tracking, and indoor climate control systems.
+<div >
+![image](https://github.com/Kanika18ss/Weather-Monitoring-System/assets/110254553/99886a39-22bf-4369-a17c-5650832d3a7d)
+</div>
 
 
