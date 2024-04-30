@@ -28,7 +28,7 @@ const WeatherTab = ({ title, data }) => {
     } else {
       color = '#ff6f00';
     }
-  } else if (title === 'Dew Point') {
+  } else if (title === 'Dew-Point (°C)') {
     if (value < 2) {
       color = '#ffff48';
     } else if (value >= 2 && value <= 5) {
@@ -36,7 +36,7 @@ const WeatherTab = ({ title, data }) => {
     } else {
       color = '#0080ff';
     }
-  } else if (title === 'Altitude') {
+  } else if (title === 'Altitude (m)') {
     if (value < 40) {
       color = '#ff6f00';
     } else if (value >= 40 && value <= 80) {
@@ -45,7 +45,7 @@ const WeatherTab = ({ title, data }) => {
       color = '#0080ff';
     }
   
-  } else if (title === "Surface-Pressure(hPa)") {
+  } else if (title === "Surface-Pressure (hPa)") {
     if (value < 600) {
       color = '#ff6f00';
     } else if (value >= 600 && value <= 800) {
@@ -53,7 +53,7 @@ const WeatherTab = ({ title, data }) => {
     } else {
       color = 'orange';
     }
-  } else if (title === 'Air Quality Index') {
+  } else if (title === 'Air-Quality-Index (ppm)') {
     if (value < 600) {
       color = '#ff6f00';
     } else if (value >= 600 && value <= 800) {
