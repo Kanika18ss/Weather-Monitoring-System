@@ -22,5 +22,14 @@ BMP180 is a high-precision digital pressure sensor commonly used in IoT applicat
 <br></br>
 ![image](https://github.com/Kanika18ss/Weather-Monitoring-System/assets/110254553/26b7a471-c0fd-45ba-9569-c54b13a0e8d7)
 
+## Lets Get Started !
+#### • Fork the project into your local repository and download or clone the project into your local system.
+#### • In order to run the project , Kindly install Node.js into your system.
+#### • After all this setup open the project on Vscode and run command => npm init , Accept all the things and press atlast Y.
+#### • After setting the npm environment run command => npm install , to install all dependancies of node modules used.
+#### • Finlly write npm start command to run your project.
+
+## Preview of the complete Website
+
 
 
