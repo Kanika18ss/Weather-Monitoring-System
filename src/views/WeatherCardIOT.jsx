@@ -2,15 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './WeatherCard.css';
 import  WeatherTab from './wt'; 
 
-// Define WeatherTab component before using it in WeatherCard
-/*const WeatherTab = ({ title, data }) => {
-  return (
-    <div className="weather-tab">
-      <h3>{title}</h3>
-      {data !== null ? <p>{data}</p> : <p>No Data available</p>}
-    </div>
-  );
-};*/
 
 const WeatherCard = () => {
   const [weatherData, setWeatherData] = useState({ humidity: null, dewPoint: null });
@@ -98,14 +89,14 @@ const WeatherCard = () => {
 
   return (
     <div className="weather-card">
-      <h2>Current Weather</h2>
+      <h2 style={{color:'white'}}>Current Weather</h2>
       <div className='tabs-container'>
         <WeatherTab title="Temperature (°C)" data={weatherData.temperature} />
         <WeatherTab title="Humidity (%)" data={weatherData.humidity} />
-        <WeatherTab title="Dew Point" data={weatherData.dewPoint} />
-        <WeatherTab title="Air Quality Index" data={weatherData.aqi} />
-        <WeatherTab title="Surface-Pressure(hPa)" data={weatherData.pressure} />
-        <WeatherTab title="Altitude" data={weatherData.altitude} />
+        <WeatherTab title="Dew-Point (°C)" data={weatherData.dewPoint} />
+        <WeatherTab title="Air-Quality-Index (ppm)" data={weatherData.aqi} />
+        <WeatherTab title="Surface-Pressure (hPa)" data={weatherData.pressure} />
+        <WeatherTab title="Altitude (m)" data={weatherData.altitude} />
       </div>
     </div>
   );
