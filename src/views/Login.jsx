@@ -36,11 +36,6 @@ function Login() {
       });
   }
 
-  function fillDemoCredentials() {
-    setEmail('kanikachoudhary018@gmail.com');
-    setPassword('kanika');
-  }
-
   return (
     <>
       <Nheader />
@@ -77,9 +72,6 @@ function Login() {
               <button onClick={(e) => handleLogin(e)} className="block w-full bg-indigo-600 mt-5 py-2 rounded-2xl hover:bg-gray-700  transition-all duration-500 text-white font-semibold mb-2  ">Login</button>
               <div className="flex justify-center mt-4">
                 <span onClick={handlePasswordReset} className="text-sm ml-2 hover:text-blue-500 cursor-pointer hover:-translate-y-1 duration-500 transition-all">Forgot Password?</span>
-              </div>
-              <div className="flex justify-center mt-4">
-                <button onClick={fillDemoCredentials} className="text-sm ml-2 bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition-all duration-500">Fill Demo Credentials</button>
               </div>
             </form>
           </div>
