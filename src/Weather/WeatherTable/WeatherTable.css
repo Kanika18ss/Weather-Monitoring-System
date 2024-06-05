@@ -5,7 +5,7 @@
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   margin: 20px auto;
   overflow-x: auto;
-  width: 99vw; 
+  width: 95vw; 
   left: 20px;
 }
 .weather-table-container h3{
@@ -24,7 +24,7 @@
   justify-content: space-around;
 }
 .weather-table {
-  width: 32%; 
+  width: 37%; 
   height: 70%;
   font-size: 14px;
   border: 1px solid rgb(9,9,9);
