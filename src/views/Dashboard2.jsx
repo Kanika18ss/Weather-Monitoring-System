@@ -58,8 +58,8 @@ function DashIot() {
     }
 
     const renderCSVData = () => {
-        // Slice the csvData array to include only the last 50 rows
-        const recentData = csvData.slice(10);
+        // Slice the csvData array to include only the first 10 rows
+        const recentData = csvData.slice(0,10);
     
         return (
             <table className="csv-table">
